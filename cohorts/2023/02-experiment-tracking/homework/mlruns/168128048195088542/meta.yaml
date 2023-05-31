@@ -1,0 +1,6 @@
+artifact_location: file:///home/hdubuntu/mlops-zoomcamp/cohorts/2023/02-experiment-tracking/homework/mlruns/168128048195088542
+creation_time: 1685544335311
+experiment_id: '168128048195088542'
+last_update_time: 1685544335311
+lifecycle_stage: active
+name: nyc-taxi-experiment
