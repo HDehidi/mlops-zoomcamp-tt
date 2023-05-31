@@ -39,11 +39,11 @@ def preprocess(df: pd.DataFrame, dv: DictVectorizer, fit_dv: bool = False):
 @click.command()
 @click.option(
     "--raw_data_path",
-    help="Location where the raw NYC taxi trip data was saved"
+    help="/home/hdubuntu/mlops-zoomcamp/cohorts/2023/02-experiment-tracking/homework/raw_data"
 )
 @click.option(
     "--dest_path",
-    help="Location where the resulting files will be saved"
+    help="/home/hdubuntu/mlops-zoomcamp/cohorts/2023/02-experiment-tracking/homework/results"
 )
 def run_data_prep(raw_data_path: str, dest_path: str, dataset: str = "green"):
     # Load parquet files
